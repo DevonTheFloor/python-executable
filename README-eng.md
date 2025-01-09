@@ -1,6 +1,3 @@
-Here is the translated content of your file into English:
-
----
 
 ### Steps to Create an Executable with PyInstaller
 
