@@ -1,14 +1,15 @@
 
-### Étapes pour créer un exécutable avec PyInstaller
+# Étapes pour créer un exécutable avec PyInstaller
+## [English Version](./README.eng.md)
 
-1. **Installer PyInstaller**  
+###  **1.Installer PyInstaller**  
    PyInstaller est une bibliothèque Python qui permet de créer des exécutables :
 
    ```bash
    pip install pyinstaller
    ```
 
-2. **Créer l'exécutable**  
+###  **2.Créer l'exécutable**  
    Dans le terminal ou l'invite de commandes, exécutez la commande suivante :
 
    ```bash
@@ -18,7 +19,7 @@
    - `--onefile` : Crée un seul fichier exécutable au lieu d'un dossier contenant plusieurs fichiers.
 
 
-3. **Résultat**  
+###  **3.Résultat**  
    - PyInstaller génère un dossier `dist/` dans le répertoire courant.
    - L'exécutable se trouve dans `dist/mon_script` ou `dist/mon_script.exe` (selon système d'exploitation).
 

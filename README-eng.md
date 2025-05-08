@@ -1,14 +1,15 @@
 
-### Steps to Create an Executable with PyInstaller
+# Steps to Create an Executable with PyInstaller
+## [Version Française](./README.md)
 
-1. **Install PyInstaller**  
+###  **1.Install PyInstaller**  
    PyInstaller is a Python library that allows you to create executables:
 
    ```bash
    pip install pyinstaller
    ```
 
-2. **Create the Executable**  
+###  **2.Create the Executable**  
    In the terminal or command prompt, run the following command:
 
    ```bash
@@ -17,7 +18,7 @@
 
    - `--onefile`: Creates a single executable file instead of a folder with multiple files.
 
-3. **Result**  
+###  **3.Result**  
    - PyInstaller generates a `dist/` folder in the current directory.
    - The executable can be found in `dist/my_script` or `dist/my_script.exe` (depending on the operating system).
 
@@ -61,6 +62,3 @@ rm -rf __pycache__/
 rm my_script.spec
 ```
 
----
-
-Let me know if you need further adjustments! 😊
